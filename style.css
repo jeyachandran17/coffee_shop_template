@@ -1,11 +1,80 @@
 #home{
-    height: 500px;
+    min-height: 500px;
     width: 100%;
     display: flex;
-    background-image: url(./assets/img/coffee_logo.png);
-    image-rendering: auto;
-    background-size: contain;
+    background-image: url(./assets/img/coffee_bg1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 10% center;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+#intro-txt{
+    color: snow;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#order-btn{
+    width: 150px;
+    padding: 10px;
+    align-items: center;
+    border: 2px solid snow;
+    border-radius: 30px;
+    color: snow;
+}
+
+#order-btn:hover{
+    background-color: whitesmoke;
+    color: gray;
+    transition: 0.5s;
+}
+
+
+.hevan-img{
+    height: 300px;
+    background-size: contain;
     background-position: center;
+    border-radius: 20px;
+}
+
+.hevan-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#sell{
+    min-height: 500px;
+    width: 100%;
+    background-image: url(./assets/img/coffee_beans.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: snow;
+    text-shadow: 1px 1px 3px gray;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#card-details:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card-img{
+    height: 300px;
+    background-size: cover;
+    padding: 40px;
+    transition: 0.5s;
+    cursor: pointer;
 }
