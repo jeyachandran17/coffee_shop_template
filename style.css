@@ -1,8 +1,11 @@
-#header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    height: 100vh;
+#home{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-image: url(./assets/img/coffee_logo.png);
+    image-rendering: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-position: center;
 }
