@@ -57,6 +57,7 @@
     text-align: center;
     color: snow;
     text-shadow: 1px 1px 3px gray;
+    gap: 20px;
 }
 
 #cards{
@@ -95,6 +96,13 @@
 
 }
 
+.card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
 #coffee-items{
     display: flex;
     justify-content: center;
@@ -103,6 +111,36 @@
     padding: 20px;
     margin-top: 5px;
     background-image: url(./assets/img/coffee_cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#dessert {
+    min-height: 400px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(./assets/img/coffee_bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: snow;
+    text-shadow: 1px 1px 3px gray;
+
+}
+
+#dessert-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 5px;
+    background-image: url(./assets/img/download3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
