@@ -145,3 +145,21 @@
     background-size: cover;
     background-position: center;
 }
+
+#coffee-history{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    color: snow;
+    text-shadow: 1px 1px 3px gray;
+}
+
+#make-coffee{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
